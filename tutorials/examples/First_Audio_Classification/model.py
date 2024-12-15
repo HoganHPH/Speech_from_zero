@@ -8,7 +8,7 @@ from torch.nn import init
 # ----------------------------
 class AudioClassifier(nn.Module):
     def __init__(self):
-        super(AudioClassifier).__init__()
+        super(AudioClassifier, self).__init__()
         conv_layers = []
         
         # First Convolution Block with Relu and Batch Norm. Use Kaiming Initialization

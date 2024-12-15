@@ -1,3 +1,5 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import argparse
 import torch
 import torch.nn as nn
@@ -6,11 +8,11 @@ from torch.utils.tensorboard import SummaryWriter
 
 from model import AudioClassifier
 from datasets import SoundDataLoader
-
+from tqdm.auto import tqdm
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--data', type=str, default='./DATA', help="data dir")
-parser.add_argument('-bs', '--batch_size', type=int, default=64, help="number of samples in each batch")
+parser.add_argument('-bs', '--batch_size', type=int, default=16, help="number of samples in each batch")
 parser.add_argument('-ep', '--epochs', type=int, default=100, help="number of training epochs")
 parser.add_argument('-dv', '--device', type=str, default='cuda', help="cuda or cpu")
 args = parser.parse_args()
@@ -35,8 +37,8 @@ def train(model, train_dl, num_epochs, device):
         running_loss = 0.0
         correct_prediction = 0
         total_prediction = 0
-        
-        for i, data in enumerate(train_dl):
+        print(f"\n====> Epoch {epoch + 1}:\n")
+        for i, data in tqdm(enumerate(train_dl), total=len(train_dl)):
             inputs, labels = data[0].to(device), data[1].to(device)
             
             # Normalize inputs
@@ -79,6 +81,7 @@ if __name__ == '__main__':
     device = args.device
     
     device = torch.device(device)
+    print("Device : ", device)
     
     # Create the model and put it on the GPU if available
     model = AudioClassifier()
