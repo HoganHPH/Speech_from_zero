@@ -1,6 +1,6 @@
 import soundata
 
-data_home = "W:/CODE_EVERYTHING/AIHUB/speech/Speech_from_zero/tutorials/examples/First_Audio_Classification/DATA"
+data_home = "./DATA"
 dataset = soundata.initialize('urbansound8k', data_home=data_home)
 dataset.download()
 dataset.validate()
