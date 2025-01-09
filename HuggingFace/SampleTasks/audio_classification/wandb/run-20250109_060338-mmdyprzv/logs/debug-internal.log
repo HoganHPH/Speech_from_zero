@@ -1,8 +1,0 @@
-{"time":"2025-01-09T06:03:38.17883665Z","level":"INFO","msg":"using version","core version":"0.19.1"}
-{"time":"2025-01-09T06:03:38.178867353Z","level":"INFO","msg":"created symlink","path":"/kaggle/working/Speech_from_zero/HuggingFace/SampleTasks/audio_classification/wandb/run-20250109_060338-mmdyprzv/logs/debug-core.log"}
-{"time":"2025-01-09T06:03:38.28209334Z","level":"INFO","msg":"created new stream","id":"mmdyprzv"}
-{"time":"2025-01-09T06:03:38.282161393Z","level":"INFO","msg":"stream: started","id":"mmdyprzv"}
-{"time":"2025-01-09T06:03:38.282227027Z","level":"INFO","msg":"writer: Do: started","stream_id":"mmdyprzv"}
-{"time":"2025-01-09T06:03:38.28223838Z","level":"INFO","msg":"sender: started","stream_id":"mmdyprzv"}
-{"time":"2025-01-09T06:03:38.28232429Z","level":"INFO","msg":"handler: started","stream_id":"mmdyprzv"}
-{"time":"2025-01-09T06:03:38.436946965Z","level":"INFO","msg":"Starting system monitor"}

@@ -1,8 +1,0 @@
-{"time":"2025-01-09T06:03:07.615443672Z","level":"INFO","msg":"using version","core version":"0.19.1"}
-{"time":"2025-01-09T06:03:07.615468865Z","level":"INFO","msg":"created symlink","path":"/kaggle/working/Speech_from_zero/HuggingFace/SampleTasks/audio_classification/wandb/run-20250109_060307-f1xcy7zp/logs/debug-core.log"}
-{"time":"2025-01-09T06:03:07.718486851Z","level":"INFO","msg":"created new stream","id":"f1xcy7zp"}
-{"time":"2025-01-09T06:03:07.718541531Z","level":"INFO","msg":"stream: started","id":"f1xcy7zp"}
-{"time":"2025-01-09T06:03:07.71856815Z","level":"INFO","msg":"writer: Do: started","stream_id":"f1xcy7zp"}
-{"time":"2025-01-09T06:03:07.718597215Z","level":"INFO","msg":"handler: started","stream_id":"f1xcy7zp"}
-{"time":"2025-01-09T06:03:07.71865195Z","level":"INFO","msg":"sender: started","stream_id":"f1xcy7zp"}
-{"time":"2025-01-09T06:03:07.911466168Z","level":"INFO","msg":"Starting system monitor"}
