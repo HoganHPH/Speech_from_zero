@@ -1,0 +1,16 @@
+{"time":"2025-01-09T06:00:32.944666906Z","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-09T06:00:32.94469041Z","level":"INFO","msg":"created symlink","path":"/kaggle/working/Speech_from_zero/HuggingFace/SampleTasks/audio_classification/wandb/run-20250109_060032-qe3adg4q/logs/debug-core.log"}
+{"time":"2025-01-09T06:00:33.047391424Z","level":"INFO","msg":"created new stream","id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:33.047443602Z","level":"INFO","msg":"stream: started","id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:33.047486674Z","level":"INFO","msg":"writer: Do: started","stream_id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:33.04749154Z","level":"INFO","msg":"handler: started","stream_id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:33.047589694Z","level":"INFO","msg":"sender: started","stream_id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:33.275648759Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T06:00:36.317263896Z","level":"INFO","msg":"stream: closing","id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:36.31730517Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T06:00:36.319086162Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T06:00:36.612930621Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-09T06:00:36.690577307Z","level":"INFO","msg":"handler: closed","stream_id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:36.690614436Z","level":"INFO","msg":"sender: closed","stream_id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:36.690602969Z","level":"INFO","msg":"writer: Close: closed","stream_id":"qe3adg4q"}
+{"time":"2025-01-09T06:00:36.690711477Z","level":"INFO","msg":"stream: closed","id":"qe3adg4q"}

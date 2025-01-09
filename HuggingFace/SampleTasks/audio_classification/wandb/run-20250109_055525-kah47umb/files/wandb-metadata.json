@@ -1,0 +1,48 @@
+{
+  "os":  "Linux-6.6.56+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.12",
+  "startedAt":  "2025-01-09T05:55:25.483489Z",
+  "program":  "/kaggle/working/Speech_from_zero/HuggingFace/SampleTasks/audio_classification/audio_cls.py",
+  "codePath":  "HuggingFace/SampleTasks/audio_classification/audio_cls.py",
+  "git":  {
+    "remote":  "https://github.com/HoganHPH/Speech_from_zero.git",
+    "commit":  "6d3643ecc92bde39303de48e92697f19c156d44b"
+  },
+  "email":  "hoang.ph303@gmail.com",
+  "root":  "/kaggle/working/Speech_from_zero/HuggingFace/SampleTasks/audio_classification",
+  "host":  "c2e155c1c621",
+  "executable":  "/usr/bin/python3",
+  "codePathLocal":  "audio_cls.py",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "gpu":  "Tesla T4",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "8656922775552",
+      "used":  "6485280882688"
+    }
+  },
+  "memory":  {
+    "total":  "33662353408"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing"
+    },
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

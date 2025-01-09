@@ -1,1 +1,5 @@
 soundata
+transformers==4.47.1
+datasets
+evaluate
+python-dotenv
