@@ -1,5 +1,7 @@
 import os
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = '3'
+import torch
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 ### ===============================================================================
 ### Automatic Speech Recognition
@@ -50,7 +52,6 @@ def prepare_dataset(batch):
 encoded_minds = minds.map(prepare_dataset, remove_columns=minds.column_names["train"], num_proc=4)
 
 ### Dynamicaly pad text and labels to the length of the longest element in its batch (not entire dataset)
-import torch
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
 
@@ -114,17 +115,18 @@ model = AutoModelForCTC.from_pretrained(
     checkpoint,
     ctc_loss_reduction="mean",
     pad_token_id=processor.tokenizer.pad_token_id
-)
+).to(device)
 
 
 ### Define training arguments
 training_args = TrainingArguments(
     output_dir="my_first_asr_model",
+    num_train_epochs=2,
     per_device_train_batch_size=8,
     gradient_accumulation_steps=2,
     learning_rate=1e-5,
-    warmup_steps=500,
-    max_steps=2000,
+    # warmup_steps=500,
+    # max_steps=2000,
     gradient_checkpointing=True,
     fp16=True,
     group_by_length=True,
