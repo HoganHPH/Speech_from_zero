@@ -6,3 +6,4 @@ __pycache__/
 wandb
 
 my_first_audio_cls/
+my_first_asr_model/
