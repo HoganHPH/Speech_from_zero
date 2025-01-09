@@ -3,3 +3,6 @@ runs/
 __pycache__/
 *.pt
 .env
+wandb
+
+my_first_audio_cls/
