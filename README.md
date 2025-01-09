@@ -5,7 +5,7 @@
     <li>09/01/2025
         <ul>
             <li>Content: HuggingFace Task Guides - Audio Classification</li>
-            <li>Code and Docs: </li>
+            <li>Code and Docs: <a href='https://github.com/HoganHPH/Speech_from_zero/tree/main/HuggingFace/SampleTasks/audio_classification'>HF Audio Classification</a></li>
         </ul>
     </li>
     <li>December
