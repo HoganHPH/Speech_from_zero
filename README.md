@@ -2,6 +2,12 @@
 
 <h2>!Update:</h2>
 <ul>
+    <li>10/01/2025
+        <ul>
+            <li>Content: HuggingFace Task Guides - Automatic Speech Recognition</li>
+            <li>Code and Docs: <a href='https://github.com/HoganHPH/Speech_from_zero/tree/main/HuggingFace/SampleTasks/automatic_speech_recognition'>HF Automatic Speech Recognition</a></li>
+        </ul>
+    </li>
     <li>09/01/2025
         <ul>
             <li>Content: HuggingFace Task Guides - Audio Classification</li>
